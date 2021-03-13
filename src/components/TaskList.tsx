@@ -21,7 +21,7 @@ export function TaskList() {
     if (newTaskTitle.trim() !== "") {
       const task = {
         id: randomId,
-        title: newTaskTitle,
+        title: newTaskTitle.trim(),
         isComplete: false,
       }
 
